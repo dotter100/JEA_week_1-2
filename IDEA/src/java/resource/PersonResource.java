@@ -20,8 +20,17 @@ public class PersonResource {
         return personDao.getAll();
     }
 
+//    @GET
+//    @Produces("application/json")
+//    public Person test(){
+//        Person berend = new Person("Berend", "Baardse");
+//        personDao.save(berend);
+//        return berend;
+//
+//    }
+
     @POST
-    @Consumes("application/json")
+    @Produces("application/json")
     public void save(Person person) {
         personDao.save(person);
     }
