@@ -7,18 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a38d82-110a-4c18-8fcc-6878c2f9728c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEA/src/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEA/src/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/src/main/java/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/main/java/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/target/classes/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/classes/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/artifacts/testing_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/artifacts/testing_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/libraries/Maven__javax_javaee_api_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/src/main/java/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/java/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/persistance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/persistance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/testing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,80 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDEA/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="62" selection-start-column="62" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/persistance.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/target/classes/StartController.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="113" lean-forward="true" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
-              <folding>
-                <element signature="e#0#761#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/StartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/StartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,16 +52,92 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/resource/PersonResource.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>try</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,13 +148,9 @@
         <option value="$PROJECT_DIR$/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/IDEA/src/main/java/GebruikerDAO.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/java/PersonDAO.java" />
-        <option value="$PROJECT_DIR$/IDEA/src/main/java/PersonResource.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/java/Person.java" />
-        <option value="$PROJECT_DIR$/IDEA/src/main/java/model/Person.java" />
         <option value="$PROJECT_DIR$/IDEA/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/persistance.xml" />
-        <option value="$PROJECT_DIR$/IDEA/src/main/java/resource/PersonResource.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/com.simplewebapp/controller/controller.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/com.simplewebapp/controller/StartController.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/hello.jsp" />
@@ -153,10 +162,24 @@
         <option value="$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/StartController.java" />
         <option value="$PROJECT_DIR$/IDEA/pom.xml" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp" />
-        <option value="$PROJECT_DIR$/IDEA/src/main/java/StartController.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml.jsp" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/StartController.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/model.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/model/person.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/model/Person.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/model/PersonDao.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/PersonResource.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/java/resource/PersonResource.java" />
+        <option value="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/persistance.xml" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/StartController.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/persistance.xml" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/persistance.xml" />
+        <option value="$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -200,10 +223,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="-35" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,25 +250,6 @@
               <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
               <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,14 +257,6 @@
               <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,6 +264,46 @@
               <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -292,22 +327,7 @@
               <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +335,7 @@
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
@@ -323,6 +344,15 @@
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
@@ -337,6 +367,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -353,11 +384,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\beerb\IDEA2\IDEA\src\main\resources\META-INF" />
+      <recent name="C:\Users\beerb\IDEA2\IDEA\src\java" />
+      <recent name="C:\Users\beerb\IDEA2\IDEA\src\main" />
+      <recent name="C:\Users\beerb\IDEA2\IDEA\src" />
       <recent name="C:\Users\beerb\IDEA2\IDEA\src\main\java\com.simplewebapp\controller" />
-      <recent name="C:\Users\beerb\IDEA2\IDEA\src\main\java\com.simplewebapp" />
-      <recent name="C:\Users\beerb\IDEA2\IDEA\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\beerb\IDEA2\IDEA\.idea" />
-      <recent name="C:\Users\beerb\IDEA2\IDEA\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,12 +492,16 @@
       <updated>1549874090278</updated>
       <workItem from="1549874091673" duration="11375000" />
       <workItem from="1549893991598" duration="23000" />
-      <workItem from="1549963061382" duration="8640000" />
+      <workItem from="1549963061382" duration="10654000" />
+      <workItem from="1550044376158" duration="2527000" />
+      <workItem from="1550145720788" duration="8468000" />
+      <workItem from="1550249567950" duration="1927000" />
+      <workItem from="1550476757876" duration="1154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20038000" />
+    <option name="totallyTimeSpent" value="36128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,28 +516,28 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964706" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7995283" visible="true" weight="0.20201342" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.5035294" side_tool="true" visible="true" weight="0.25637585" />
+      <window_info id="Persistence" order="3" sideWeight="0.2" side_tool="true" weight="0.26308724" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.2004717" side_tool="true" weight="0.26308724" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.398017" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.48441926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -522,12 +557,6 @@
     <entry file="file://$PROJECT_DIR$/IDEA/target/testing/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/testing.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/IDEA.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -535,106 +564,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/persistance.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="13" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="24" lean-forward="true" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/resource/PersonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/com/simplewebapp/controller/StartController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/StartController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/persistance.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/StartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/dao/PersonDao.java" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/model/Person.java" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/com.simplewebapp/controller/resource/PersonResource.java" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/index.xhtml" />
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/com/simplewebapp/controller/StartController.class" />
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -645,38 +582,126 @@
     <entry file="file://$PROJECT_DIR$/IDEA/target/classes/StartController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="113" lean-forward="true" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
+          <caret line="22" column="113" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
           <folding>
             <element signature="e#0#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/pom.xml">
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/java/model.java" />
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/PersonResource.class" />
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/target/classes/resource/PersonResource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/StartController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/testing.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/IDEA.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="62" selection-start-column="62" selection-end-column="62" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/persistance.xml" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/IDEA/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/StartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/target/testing/WEB-INF/classes/resource/PersonResource.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
