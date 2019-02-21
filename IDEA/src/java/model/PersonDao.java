@@ -1,5 +1,7 @@
 package model;
 
+import interceptors.TracingInterceptor;
+
 import javax.ejb.Stateless;
 import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;

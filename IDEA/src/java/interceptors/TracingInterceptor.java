@@ -1,4 +1,4 @@
-package model;
+package interceptors;
 
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.InvocationContext;
