@@ -1,13 +1,14 @@
 package model;
 
-import model.Person;
-
 import javax.ejb.Stateless;
+import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
+
 @Stateless
+@Interceptors(TracingInterceptor.class)
 public class PersonDao {
 
     @PersistenceContext

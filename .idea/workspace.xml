@@ -3,17 +3,22 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="testing:war" />
-      <artifact name="testing:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a38d82-110a-4c18-8fcc-6878c2f9728c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IDEA/src/java/loginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/loggedin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/interceptor_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEA/src/java/model/TracingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interceptor/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interceptor/interceptor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IDEA/target/testing.war" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/testing.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/IDEA/target/testing/WEB-INF/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/artifacts/testing_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/artifacts/testing_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEA2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEA2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/IDEA/target/" />
@@ -28,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDEA/src/java/StartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="14" column="32" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDEA/src/java/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+            <state relative-caret-position="340">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,12 +80,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="61">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
                 <element signature="e#656#657#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/TracingInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -102,54 +129,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
                 <marker date="1550488394756" expanded="true" signature="329:529" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/loggedin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -215,6 +199,9 @@
         <option value="$PROJECT_DIR$/IDEA/src/java/resource/LoginResource.java" />
         <option value="$PROJECT_DIR$/IDEA/src/java/loginController.java" />
         <option value="$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/loggedin.jsp" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/TracingInterceptor.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java" />
+        <option value="$PROJECT_DIR$/IDEA/src/java/model/TracingInterceptor.java" />
       </list>
     </option>
   </component>
@@ -308,14 +295,6 @@
               <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,90 +330,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,21 +372,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="GlassFish 5.184.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+    <configuration name="GlassFish 5.184.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/testing/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="testing:war exploded">
-          <settings>
-            <option name="contextRoot" value="/web" />
-            <option name="defaultContextRoot" value="false" />
-          </settings>
-        </artifact>
         <artifact name="testing:war">
-          <settings>
-            <option name="contextRoot" value="/berend" />
-            <option name="defaultContextRoot" value="false" />
-          </settings>
+          <settings />
         </artifact>
       </deployment>
       <server-settings>
@@ -532,10 +425,10 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="$PROJECT_DIR$/../JEA/payara5/glassfish/bin/asadmin.bat" />
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="start-domain --verbose" />
+          <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
@@ -547,7 +440,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="testing:war exploded" />
           <artifact name="testing:war" />
         </option>
       </method>
@@ -596,7 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46367000" />
+    <option name="totallyTimeSpent" value="49275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,16 +503,17 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7967033" visible="true" weight="0.20201342" />
+      <window_info id="JavaEE:App" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79395604" visible="true" weight="0.20469798" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.2032967" side_tool="true" visible="true" weight="0.20201342" />
+      <window_info id="Persistence" order="3" sideWeight="0.20604396" side_tool="true" visible="true" weight="0.20469798" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" sideWeight="0.2004717" side_tool="true" weight="0.26308724" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.48441926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.48441926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -767,10 +660,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/LoginResource.java" />
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/loggedin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IDEA/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1550488394756" expanded="true" signature="329:529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,61 +728,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/LoginResource.java">
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/StartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/java/resource/PersonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <marker date="1550488394756" expanded="true" signature="329:529" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -865,34 +759,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/loggedin.jsp">
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/java/StartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="14" column="32" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="61">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/main/webapp/WEB-INF/hello.jsp">
+    <entry file="file://$PROJECT_DIR$/IDEA/src/java/model/TracingInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDEA/src/java/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,11 +835,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|testing</last-edited>
+          <last-edited>interceptor</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
