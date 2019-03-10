@@ -9,8 +9,9 @@ import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.junit.Rule;
 import org.junit.jupiter.api.Test;
 
-
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
 public class TankstationTest {
 
@@ -29,6 +30,14 @@ public class TankstationTest {
                 .willReturn(aResponse()
                         .withStatus(200)
                         .withBody("")));
+
+        given()
+                .port(8888)
+                .contentType("application/json")
+                .body(mockstation)
+                .when().put("/testing/Createtankstation").then()
+                .statusCode(200);
+        wiremock.verifyThat(WireMock.putRequestedFor(urlEqualTo("/testing/Createtankstation")));
 
 
     }
