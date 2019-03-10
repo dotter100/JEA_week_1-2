@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
 
 public class TankstationTest {
 
@@ -24,7 +23,7 @@ public class TankstationTest {
 
         WireMock wiremock = new WireMock(8888);
 
-        wiremock.register(put(urlEqualTo("/testing/Createtankstation"))
+        wiremock.register(put(urlEqualTo("/testing/createtankstation"))
                 .withHeader("Content-Type", containing("json"))
                 .withRequestBody(containing("TestName"))
                 .willReturn(aResponse()
@@ -35,9 +34,9 @@ public class TankstationTest {
                 .port(8888)
                 .contentType("application/json")
                 .body(mockstation)
-                .when().put("/testing/Createtankstation").then()
+                .when().put("/testing/createtankstation").then()
                 .statusCode(200);
-        wiremock.verifyThat(WireMock.putRequestedFor(urlEqualTo("/testing/Createtankstation")));
+        wiremock.verifyThat(WireMock.putRequestedFor(urlEqualTo("/testing/createtankstation")));
 
 
     }
